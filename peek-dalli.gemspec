@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Take a peek into the Memcache commands made through Dalli during your application's requests.}
   gem.summary       = %q{Take a peek into the Memcache commands made through Dalli during your application's requests.}
   gem.homepage      = 'https://github.com/peek/peek-dalli'
+  gem.homepage      = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
